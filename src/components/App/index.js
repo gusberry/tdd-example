@@ -1,3 +1,4 @@
 import App from "./App";
+import StateProviderHOC from "./StateProviderHOC";
 
-export default App;
+export default StateProviderHOC(App);
